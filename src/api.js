@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const DOMAIN_API = "https://car-api-supervisely.herokuapp.com"
+const DOMAIN_API = "http://localhost:8000"
 
 const api = axios.create({
     baseURL: '',
 })
-export const PREDICT = DOMAIN_API + "/image/predict"
+export const PREDICT = DOMAIN_API + "/image/predictGif"
 export default api;
